@@ -1,4 +1,4 @@
-import { ExternalLink, Play } from "lucide-react";
+import { ExternalLink, Play, X } from "lucide-react";
 import { useState } from "react";
 
 interface Tag {
@@ -73,29 +73,17 @@ export default function CarouselCard({
       {/* Image / Video */}
       <div>
         <div
-          className={`relative w-full ${getAspectRatio()} bg-[#efeeeb] overflow-hidden border-b border-[#e2e0dc]`}
-          onMouseEnter={() => videoUrl && setShowVideo(true)}
-          onMouseLeave={() => setShowVideo(false)}
+          className={`relative w-full ${getAspectRatio()} bg-[#efeeeb] overflow-hidden border-b border-[#e2e0dc] ${videoUrl ? "cursor-pointer" : ""}`}
+          onClick={() => videoUrl && setShowVideo(true)}
         >
-          {!showVideo ? (
-            <img
-              src={imageUrl}
-              alt={imageAlt}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-          ) : (
-            <video
-              src={videoUrl}
-              className="w-full h-full object-cover"
-              autoPlay
-              muted
-              loop
-              playsInline
-            />
-          )}
+          <img
+            src={imageUrl}
+            alt={imageAlt}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
 
-          {videoUrl && !showVideo && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/20 transition-colors">
+          {videoUrl && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/30 transition-colors">
               <Play
                 size={48}
                 className="text-white opacity-0 group-hover:opacity-100 transition-opacity"
@@ -147,6 +135,34 @@ export default function CarouselCard({
           <ExternalLink size={16} />
         </a>
       </div>
+
+      {/* Video Modal */}
+      {showVideo && videoUrl && (
+        <div
+          className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm"
+          onClick={() => setShowVideo(false)}
+        >
+          <div
+            className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowVideo(false)}
+              className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black/80 rounded-full transition-colors"
+              aria-label="Close video"
+            >
+              <X size={24} className="text-white" />
+            </button>
+            <iframe
+              src={videoUrl}
+              className="w-full h-full"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              title="Video"
+            />
+          </div>
+        </div>
+      )}
     </article>
   );
 }

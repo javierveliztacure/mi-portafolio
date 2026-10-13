@@ -20,7 +20,7 @@ const edicionData = [
     linkText: "Ver en Google Drive",
     linkHref:
       "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
-    videoUrl: "https://drive.google.com/uc?id=1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y",
+    videoUrl: "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/preview",
     btnVariant: "dark" as const,
   },
   {

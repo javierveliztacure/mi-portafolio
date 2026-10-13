@@ -14,6 +14,7 @@ export default function Header() {
           </span>
         </a>
 
+
         {/* Navigation - Desktop */}
         <nav className="hidden lg:flex items-center gap-1 font-mono text-xs uppercase tracking-wider text-[#444748]">
           <a
