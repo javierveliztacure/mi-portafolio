@@ -3,8 +3,7 @@ import CarouselCard from "../CarouselCard";
 
 const edicionData = [
   {
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCYo9YahmlPcc_Io9GE_bzPEc5VSR0GqRW105eGK1RcZSPq8DG7PkYsMC_hKUNTRf8uqwHDK0oy9HlSBtgpxJjYWLr-alUHOjxwpa6yPszILz2PPh-YbRXYXmCSQ50U4QYIHpgI4bo-VCm2rSqkCPBKGxJ4XYWDBFoI_ff2qT_EF1LoS0CLgDlpeqnLujuPydKp-akYD05jiJEkXjaF2RGtbfFTjgqnxJfZy1FcbgP5QPYtbHarTgkLnA",
+    imageUrl: "/images/ejemplo.png",
     imageAlt: "Intimate documentary interview frame",
     topLabel: "ONG / TESTIMONIAL",
     topLabelVariant: "dark" as const,
