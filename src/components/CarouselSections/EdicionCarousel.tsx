@@ -3,7 +3,7 @@ import CarouselCard from "../CarouselCard";
 
 const edicionData = [
   {
-    imageUrl: "/images/ejemplo.png",
+    imageUrl: "/images/pimental.png",
     imageAlt: "Intimate documentary interview frame",
     topLabel: "ONG / TESTIMONIAL",
     topLabelVariant: "dark" as const,
