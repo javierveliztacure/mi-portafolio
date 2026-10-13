@@ -3,12 +3,12 @@ import CarouselCard from "../CarouselCard";
 
 const edicionData = [
   {
-    imageUrl: "/images/pimental.png",
+    imageUrl: "/images/pimental_2.png",
     imageAlt: "Intimate documentary interview frame",
     topLabel: "ONG / TESTIMONIAL",
     topLabelVariant: "dark" as const,
-    bottomLabel: "04:20 // NARRATIVO",
-    title: "Edición Narrativa & Montaje Institucional / ONG",
+    bottomLabel: "02:30 // NARRATIVO",
+    title: "Historia de Ajies El Pimental",
     description:
       "Tratamiento de testimonios reales con sensibilidad editorial y ética comunitaria. Integración de música orquestal sutil y pausas respiradas.",
     tags: [
@@ -16,7 +16,7 @@ const edicionData = [
       { label: "Documental" },
       { label: "Color Rec.709" },
     ],
-    linkText: "Ver en Google Drive",
+    linkText: "Ver",
     linkHref:
       "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
     videoUrl: "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/preview",
