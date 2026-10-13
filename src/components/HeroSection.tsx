@@ -13,7 +13,7 @@ export default function HeroSection() {
               PORTAFOLIO
             </h1>
             <p className="font-body text-base lg:text-lg text-[#444748] max-w-2xl leading-relaxed">
-              Comunicador y periodista ágil, lenguaje de streaming y
+              Comunicador y periodista, lenguaje de streaming y
               narrativa testimonial/documental. Del material en bruto a la pieza
               final con ritmo milimétrico y rigor de sentido.
             </p>
