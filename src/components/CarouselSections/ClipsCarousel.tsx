@@ -86,7 +86,7 @@ export default function ClipsCarousel() {
   return (
     <CarouselContainer
       id="clips-todo-good"
-      subtitle="01 // FORMATOS VERTICALES & STREAMING"
+      subtitle="01 // CLIPS DE EJEMPLO"
       title="CLIPS DE EJEMPLO TODO GOOD"
       description="Streaming, timing cómico y dinámicas de retención: recortes precisos con alta tensión narrativa, compresión de silencios cómicos y subtitulado dinámico de alto impacto visual."
       bgColor="bg-[#faf9f6]"
