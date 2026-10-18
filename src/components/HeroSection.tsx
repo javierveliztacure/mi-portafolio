@@ -13,9 +13,7 @@ export default function HeroSection() {
               PORTAFOLIO
             </h1>
             <p className="font-body text-base lg:text-lg text-[#444748] max-w-2xl leading-relaxed">
-              Comunicador y periodista, lenguaje de streaming y
-              narrativa testimonial/documental. Del material en bruto a la pieza
-              final con ritmo milimétrico y rigor de sentido.
+              Soy comunicador y periodista, especializado en edición y postproducción audiovisual. Combino criterio narrativo, sensibilidad visual y experiencia en comunicación para transformar ideas en contenidos que informan, conectan y generan impacto.
             </p>
 
             {/* CTA Actions */}

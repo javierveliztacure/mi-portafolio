@@ -3,85 +3,90 @@ import CarouselCard from "../CarouselCard";
 
 const edicionData = [
   {
-    imageUrl: "/images/pimental_2.png",
+    imageUrl: "/images/ONPE_1.png",
     imageAlt: "Intimate documentary interview frame",
-    topLabel: "ONG / TESTIMONIAL",
-    topLabelVariant: "dark" as const,
-    bottomLabel: "02:30 // NARRATIVO",
-    title: "Historia de Ajies El Pimental",
+    topLabel: "PODCAST",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "12:39 // PODCAST",
+    title: "Habla ONPE: ¿Cómo votarán los peruanos en el exterior?",
     description:
-      "Tratamiento de testimonios reales con sensibilidad editorial y ética comunitaria. Integración de música orquestal sutil y pausas respiradas.",
+      "Produje contenidos audiovisuales para fortalecer la comunicación institucional y la difusión de información electoral en plataformas digitales. Elaboré contenidos multimedia —videos y podcast— adaptados a distintos formatos y públicos, contribuyendo a una comunicación clara y accesible. Además, brindé soporte técnico y operativo durante transmisiones en vivo y eventos institucionales, garantizando la continuidad y calidad de las emisiones.",
     tags: [
-      { label: "Rigor Ético" },
-      { label: "Documental" },
-      { label: "Color Rec.709" },
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+      { label: "Transmisiones en vivo" },
+      { label: "OBS" },
+    ],
+    linkText: "Ver",
+    linkHref:
+      "https://www.youtube.com/watch?v=Bu7EroEt1fM&list=PLUpjLn0TRvBWsvnxqcatVhqp9VwRP7Y8Q&index=5",
+    videoUrl: "https://www.youtube.com/watch?v=Bu7EroEt1fM&list=PLUpjLn0TRvBWsvnxqcatVhqp9VwRP7Y8Q&index=5",
+    btnVariant: "dark" as const,
+  },
+  {
+    imageUrl:
+      "/images/pimental_2.png",
+    imageAlt: "Dynamic retail geek culture commercial showcase",
+    topLabel: "ONG / TESTIMONIAL",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "02:49 // NARRATIVO",
+    title: "Historia de Ajies 'El Pimental'",
+    description:
+      "Desarrollé contenidos audiovisuales, fotográficos y gráficos para fortalecer la comunicación y visibilidad de las acciones del proyecto Alianza CR3CE (de la ONG CEDRO), financiado por USAID. Documenté actividades e historias de impacto en comunidades de San Martín, Ucayali y Huánuco mediante entrevistas, fotografía y producción audiovisual, contribuyendo a visibilizar los resultados del proyecto y las experiencias de sus beneficiarios.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+      { label: "Fotografía" },
+    ],
+    linkText: "Ver",
+    linkHref:
+      "https://www.youtube.com/watch?v=XlEA0XFK5sA",
+      videoUrl: "https://www.youtube.com/watch?v=XlEA0XFK5sA",
+    btnVariant: "dark" as const,
+  },
+  {
+    imageUrl:
+      "/images/PHANTOM_1.png",
+    imageAlt: "High energy YouTube and TikTok VOD highlight reel",
+    topLabel: "PROGRAMA RETAIL",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "02:15 // YOUTUBE",
+    title: "PhantomTv - Episodio 04",
+    description:
+      "Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+    ],
+    linkText: "Ver",
+    linkHref:
+      "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
+      videoUrl: "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
+    btnVariant: "dark" as const,
+  },
+  {
+    imageUrl:
+      "/images/PHANTOM_2.png",
+    imageAlt:
+      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+    topLabel: "EVENTO RETAIL",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "02:53 // EVENTO",
+    title: "Lanzamiento de Pokémon: Let's Go Pikachu! / Let's Go Eevee!",
+    description:
+      "Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
     ],
     linkText: "Ver",
     linkHref:
       "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
-    videoUrl: "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/preview",
     btnVariant: "dark" as const,
-  },
-  {
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuABDj3e0rtIsBJpZ4PGJxGzBLk_0soelaNx7sl4BiFZx_QnOblpO2RhgsuxAaIJDNdh0fcqod0R8fY-_ARvN7O9pzPN0tzbK6rPV8gjhKy-nTneRqh8cn6KOJtqcySb4B65WcKsijKuReGghxC1oNQxCzu-xtFpFuzTY6xZ70krdrdjGZOwJt8eQiBPWTFCjztwaUxlGTzAWqUgP8d8OIhV4NsGtQMbRecWaXU1ehrf6SF_IRUd9TtodQ",
-    imageAlt: "Dynamic retail geek culture commercial showcase",
-    topLabel: "RETAIL COMERCIAL",
-    topLabelVariant: "highlight" as const,
-    bottomLabel: "00:45 // SPOT",
-    title: "Comercial Dinámico & Retail Geek",
-    description:
-      "Speed ramping preciso sincronizado sobre beat urbano. Sound design inmersivo con foley digital y llamada a la acción rápida.",
-    tags: [
-      { label: "Speed Ramping" },
-      { label: "Sound Design" },
-      { label: "Beat Cuts" },
-    ],
-    linkText: "Ver en Google Drive",
-    linkHref:
-      "https://drive.google.com/file/d/16bEPqpgviFq7cylkwtB34U3yW4cG5LKI/view?usp=sharing",
-    btnVariant: "dark" as const,
-  },
-  {
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDPi_fqeUeKCMnHDLCk6UAJ9ilMhq3IPDiFHVbyEApL9PJnWiwvsx-Bd5pEi8BTCOKApcr15kGwT33dkkMouayjaJDo3icBl7Q_Y2et9PNIGWhR2u5cF1kBS2fRyzlTpCoVQ5OmAGcvUt4nA6nP0R9igG1WltQDNIXdKNZdRVU4nRTnn4uH9XJtU4H5uBlbixTFfg3phSHA6KxHH58GIlz_Gq0Klk2aXeJG6srccyd1iioTGjL5PzNv7A",
-    imageAlt: "High energy YouTube and TikTok VOD highlight reel",
-    topLabel: "STREAMING VOD",
-    topLabelVariant: "dark" as const,
-    bottomLabel: "02:15 // YOUTUBE",
-    title: "Streaming, Humor & VOD Highlights",
-    description:
-      "Curaduría de horas de directo condensadas en una narrativa ágil y divertida de 2 minutos para canales de YouTube y comunidades digitales.",
-    tags: [
-      { label: "Pacing Digital" },
-      { label: "Condensación" },
-      { label: "Enganche VOD" },
-    ],
-    linkText: "Ver en Google Drive",
-    linkHref:
-      "https://drive.google.com/file/d/1NITvFXRW6FL_k2D74Ze4K11WB-aY9-1j/view?usp=sharing",
-    btnVariant: "dark" as const,
-  },
-  {
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAUGOtmY7XgHUKzCMbRGbQYTOReJxZe4C0clKaorVsNo-H8OWXxp79mFnqequXa8rboKflcgjk-RHGahD0_0IOGFIRgMZJeEPsjpPco3wth1GewM0OWIFTQBZXCV55LG98q-HPZmwRF5IPPqyBrdXILBAI_AKiWX3kdqyyd_cG4fpgqQ-sWmm9IZlsnexe5FmN7paICt8LVP-OaMVTCi4GlL6_GHkQ61w7hZgnwWd1VcqIc5cFWuHj4og",
-    imageAlt:
-      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
-    topLabel: "INVESTIGACIÓN",
-    topLabelVariant: "dark" as const,
-    bottomLabel: "05:40 // DOC",
-    title: "Micro-Doc: Memoria & Territorio",
-    description:
-      "Estructura dialéctica intercalando archivo fotográfico con material contemporáneo filmado en 4K. Color grading cinematográfico texturado.",
-    tags: [
-      { label: "Montaje Dialéctico" },
-      { label: "Archivos Históricos" },
-      { label: "Color 4K" },
-    ],
-    linkText: "Ver en Google Drive",
-    linkHref:
-      "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
-    btnVariant: "default" as const,
   },
 ];
 
