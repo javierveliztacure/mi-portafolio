@@ -53,7 +53,7 @@ export default function ContactSection() {
           <div className="lg:col-span-5 bg-white border border-[#e2e0dc] rounded-lg p-6 lg:p-8 flex flex-col gap-6 shadow-sm">
             <div className="flex items-center justify-between pb-4 border-b border-[#e2e0dc]">
               <span className="font-mono text-xs font-bold text-black uppercase tracking-wider">
-                CANAL PREFERENTE // DIRECTO
+                CONTACTO DIRECTO
               </span>
               <span className="flex h-2.5 w-2.5 relative">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccff00] opacity-75"></span>
@@ -63,7 +63,7 @@ export default function ContactSection() {
 
             <div className="flex flex-col gap-2">
               <h3 className="font-display font-bold text-xl text-black">
-                ¿Requieres edición rápida para tu canal o marca?
+                ¿Requieres edición para tu canal o marca?
               </h3>
               <p className="font-body text-xs text-[#444748] leading-relaxed">
                 Envíame un mensaje directo para coordinar fechas de entrega,
@@ -79,7 +79,7 @@ export default function ContactSection() {
               className="w-full py-3.5 px-4 bg-[#ccff00] hover:bg-[#bbf000] text-black font-mono text-xs font-bold uppercase tracking-wider rounded border border-black/10 flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-sm"
             >
               <MessageCircle size={20} />
-              Escribir por WhatsApp Directo (+51 911...)
+              Escribir por WhatsApp Directo (+51 987411090)
             </a>
 
             {/* Editorial commitments */}

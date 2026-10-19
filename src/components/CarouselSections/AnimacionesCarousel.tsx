@@ -4,23 +4,24 @@ import CarouselCard from "../CarouselCard";
 const animacionesData = [
   {
     imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBJuOD-ffcgjqKrNcGvcBe7-ax3wEkLKGISARc3x2Phg1QlkDuOG000fcwhW9_T-QBWslA_LLNoTCI1PkrUY_ugFdu5WH_V7Qv8PQJT091Qm--UYkPEZPzhdC__XhgplVFl6WFihAxDzZRsPqh4HEFro8NjX2sMJbnwxQ5oRR8SSAdrYUYwXEZSbQdg_n5OiHwq97DW9jOvlej5J3OZh8l1EE90Pi7gM3TnTP9GvMOfUeUHaTVqVsDgyg",
+      "/images/ANIMACION_PHANTOM_1.png",
     imageAlt: "Motion graphics lower third overlay package for live news",
-    topLabel: "OBS & VMIX",
-    topLabelVariant: "dark" as const,
-    bottomLabel: "60 FPS // ALPHA",
-    title: "Paquete Gráfico & Lower Thirds para Streaming",
+    topLabel: "RETAIL", 
+    topLabelVariant: "highlight" as const,
+     bottomLabel: "ANIMACIÓN // AFTER EFFECTS", 
+    title: "Animación de promoción de FunkoPop de Power Ranger",
     description:
-      "Zócalos modulares de noticias con integración transparente, alertas en pantalla con timing no invasivo y salidas fluidas.",
+      "Animación elaborada para la tienda Phantom, como parte del área de marketing.",
     tags: [
-      { label: "Lower Thirds" },
-      { label: "Alpha Channel" },
       { label: "After Effects" },
+      // { label: "Alpha Channel" }, //
+      // { label: "After Effects" }, // 
     ],
-    linkText: "Ver Animación en Drive",
+    linkText: "Ver animación",
     linkHref:
-      "https://drive.google.com/file/d/1swQ3ZIXTatdXgaNnNaqnpnnw4PmMRBZI/view?usp=sharing",
-    btnVariant: "default" as const,
+      "https://youtu.be/zSkR1QVx1Xk",
+      videoUrl: "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
+    btnVariant: "dark" as const,
   },
   {
     imageUrl:
@@ -37,10 +38,10 @@ const animacionesData = [
       { label: "Logo Motion" },
       { label: "Sound FX" },
     ],
-    linkText: "Ver Animación en Drive",
+    linkText: "Ver animación",
     linkHref:
       "https://drive.google.com/file/d/1SL4W2MYaE1oNU0GYVWQVPjTwgElBpncK/view?usp=sharing",
-    btnVariant: "default" as const,
+    btnVariant: "dark" as const,
   },
   {
     imageUrl:
@@ -48,7 +49,7 @@ const animacionesData = [
     imageAlt:
       "Kinetic typography promotional motion reel showing bold geometric sans serif fonts",
     topLabel: "KINETIC TYPE",
-    topLabelVariant: "dark" as const,
+    topLabelVariant: "highlight" as const,
     bottomLabel: "00:15 // PROMO",
     title: "Animación Tipográfica & Motion Promocional",
     description:
@@ -58,17 +59,17 @@ const animacionesData = [
       { label: "Voice Sync" },
       { label: "9:16 & 16:9" },
     ],
-    linkText: "Ver Animación en Drive",
+    linkText: "Ver animación",
     linkHref:
       "https://drive.google.com/file/d/1fKyeTCFmJdneaV7kTEajRuun1lJmV5os/view?usp=sharing",
-    btnVariant: "default" as const,
+    btnVariant: "dark" as const,
   },
   {
     imageUrl:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBc0jtQGh0I0keXIcWOU-4NUHbKKHYlLq0V_V22jKjgGMYEkS2yTgj5IPeaKr987B8snqRfGy1wOUv3llsGhRQFEtv8CX_dpamsBwIFHLqHFY6uZQ1MqzbCUT--HVHRS7QkTd5cHPeHm4OjgCVdh1fjK2jzxn8O4T800DOf0n9gGFC6A8kweCKHsOuws4ZkVNG57LnlmD-MFmrzZJkFUknPef0vcQT6njzmxkQwGl7_X-O2VKJVIT4Cmg",
     imageAlt: "Digital HUD alert animation badge pulsing in electric wireframe",
     topLabel: "STREAM ALERTS",
-    topLabelVariant: "dark" as const,
+    topLabelVariant: "highlight" as const,
     bottomLabel: "LOOP // WEBM",
     title: "Stingers & Alertas Dinámicas",
     description:
@@ -78,10 +79,10 @@ const animacionesData = [
       { label: "Ultra Liviano" },
       { label: "OBS Engine" },
     ],
-    linkText: "Ver Animación en Drive",
+    linkText: "Ver animación",
     linkHref:
       "https://drive.google.com/file/d/1swQ3ZIXTatdXgaNnNaqnpnnw4PmMRBZI/view?usp=sharing",
-    btnVariant: "default" as const,
+    btnVariant: "dark" as const,
   },
 ];
 

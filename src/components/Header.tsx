@@ -10,7 +10,7 @@ export default function Header() {
             JAVIER VÉLIZ
           </span>
           <span className="hidden sm:inline-block font-mono text-xs px-2.5 py-1 bg-[#efeeeb] text-[#444748] rounded border border-[#e2e0dc]">
-            // COMUNICADOR & MONTAJE
+            // COMUNICACIÓN Y PERIODISMO
           </span>
         </a>
 

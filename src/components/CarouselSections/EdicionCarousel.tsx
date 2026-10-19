@@ -18,7 +18,7 @@ const edicionData = [
       { label: "Transmisiones en vivo" },
       { label: "OBS" },
     ],
-    linkText: "Ver",
+    linkText: "Ver video",
     linkHref:
       "https://www.youtube.com/watch?v=Bu7EroEt1fM&list=PLUpjLn0TRvBWsvnxqcatVhqp9VwRP7Y8Q&index=5",
     videoUrl: "https://www.youtube.com/watch?v=Bu7EroEt1fM&list=PLUpjLn0TRvBWsvnxqcatVhqp9VwRP7Y8Q&index=5",
@@ -40,7 +40,7 @@ const edicionData = [
       { label: "Producción" },
       { label: "Fotografía" },
     ],
-    linkText: "Ver",
+    linkText: "Ver video",
     linkHref:
       "https://www.youtube.com/watch?v=XlEA0XFK5sA",
       videoUrl: "https://www.youtube.com/watch?v=XlEA0XFK5sA",
@@ -52,16 +52,16 @@ const edicionData = [
     imageAlt: "High energy YouTube and TikTok VOD highlight reel",
     topLabel: "PROGRAMA RETAIL",
     topLabelVariant: "highlight" as const,
-    bottomLabel: "02:15 // YOUTUBE",
+    bottomLabel: "12:02 // YOUTUBE",
     title: "PhantomTv - Episodio 04",
     description:
-      "Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
+      "Programa elaborado in-house para la difusión de novedades, promociones y contenido variado del rubro. Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
     tags: [
       { label: "Edición" },
       { label: "Grabación" },
       { label: "Producción" },
     ],
-    linkText: "Ver",
+    linkText: "Ver video",
     linkHref:
       "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
       videoUrl: "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
@@ -75,7 +75,29 @@ const edicionData = [
     topLabel: "EVENTO RETAIL",
     topLabelVariant: "highlight" as const,
     bottomLabel: "02:53 // EVENTO",
-    title: "Lanzamiento de Pokémon: Let's Go Pikachu! / Let's Go Eevee!",
+    title: "Lanzamiento de Pokémon: Let's Go Pikachu! / Let's Go Eevee! - Phantom",
+    description:
+      "Evento y venta nocturna por el lanzamiento de Pokémon: Let's Go Pikachu! / Let's Go Eevee!. Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+    ],
+    linkText: "Ver video",
+    linkHref:
+      "https://www.youtube.com/watch?v=7j5L-uwGR2g",
+      videoUrl: "https://www.youtube.com/watch?v=7j5L-uwGR2g",
+    btnVariant: "dark" as const,
+  },
+  {
+    imageUrl:
+      "/images/PHANTOM_3.png",
+    imageAlt:
+      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+    topLabel: "EVENTO RETAIL",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "02:18 // EVENTO",
+    title: "Lanzamiento de God Of War - Phantom",
     description:
       "Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
     tags: [
@@ -85,7 +107,77 @@ const edicionData = [
     ],
     linkText: "Ver",
     linkHref:
-      "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
+      "https://www.youtube.com/watch?v=TyNDClahVNM",
+      videoUrl: "https://www.youtube.com/watch?v=TyNDClahVNM",
+    btnVariant: "dark" as const,
+  },
+   {
+    imageUrl:
+      "/images/SISOL_ADULTOS.png",
+    imageAlt:
+      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+    topLabel: "SALUD / INFORMATIVO",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "01:37 // INFORMATIVO",
+    title: "Alimentos recomendados para adultos mayores",
+    description:
+      "Video informativo con recomendaciones alimentarias para adultos mayores. Material elaborado para SISOL SALUD, como parte del área de Comunicaciones.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+    ],
+    linkText: "Ver video",
+    linkHref:
+      "https://www.youtube.com/watch?v=1IVUoYZyiYU",
+      videoUrl: "https://www.youtube.com/watch?v=1IVUoYZyiYU",
+    btnVariant: "dark" as const,
+  },
+  
+  {
+    imageUrl:
+      "/images/SISOL_INSOMNIO.png",
+    imageAlt:
+      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+    topLabel: "SALUD / INFORMATIVO",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "01:00 // INFORMATIVO",
+    title: "Recomendaciones para prevenir el insomnio",
+    description:
+      "Video informativo con recomendaciones para prevenir el insomnio. Material elaborado para SISOL SALUD, como parte del área de Comunicaciones.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+    ],
+    linkText: "Ver video",
+    linkHref:
+      "https://www.youtube.com/shorts/VHCniwMYS8Y",
+      videoUrl: "https://www.youtube.com/shorts/VHCniwMYS8Y",
+    btnVariant: "dark" as const,
+  },
+
+ 
+  {
+    imageUrl:
+      "/images/TABRA.png",
+    imageAlt:
+      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+    topLabel: "ONG / ACTIVIDAD",
+    topLabelVariant: "highlight" as const,
+    bottomLabel: "04:53 // EVENTO",
+    title: "Organización Tabra - día de playa",
+    description:
+      "Video elaborado para la organización Tabra, iniciativa que articula espacios de integración para niños neurodivergentes.",
+    tags: [
+      { label: "Edición" },
+      { label: "Grabación" },
+      { label: "Producción" },
+    ],
+    linkText: "Ver video",
+    linkHref:
+      "https://www.youtube.com/watch?v=bJrl54HQ3bY",
+      videoUrl: "https://www.youtube.com/watch?v=bJrl54HQ3bY",
     btnVariant: "dark" as const,
   },
 ];
@@ -94,9 +186,9 @@ export default function EdicionCarousel() {
   return (
     <CarouselContainer
       id="edicion-de-video"
-      subtitle="02 // MONTAJE CINEMATOGRÁFICO & COMERCIAL"
-      title="EDICIÓN DE VIDEO"
-      description="Montaje narrativo, institucional y formatos comerciales. Desde testimonios con rigor periodístico hasta piezas publicitarias de ritmo vertiginoso."
+      subtitle="02 // MONTAJE INFORMATIVO & COMERCIAL"
+      title="EDICIONES DE VIDEO"
+      description="Montaje narrativo, institucional y formatos comerciales, desde testimonios con rigor periodístico hasta piezas publicitarias."
       bgColor="bg-[#f4f3f0]"
       scrollOffset={400}
     >
