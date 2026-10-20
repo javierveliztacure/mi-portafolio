@@ -140,7 +140,7 @@ export default function CarouselCard({
         </div>
 
         {/* Content */}
-        <div className="p-5 flex flex-col gap-2">
+        <div className="p-4 sm:p-5 flex flex-col gap-2">
           <h3 className="font-display font-bold text-lg text-black">{title}</h3>
           <p className="font-body text-xs text-[#444748] leading-relaxed">
             {description}
@@ -161,7 +161,7 @@ export default function CarouselCard({
       </div>
 
       {/* Button */}
-      <div className="p-5 pt-0">
+      <div className="p-4 sm:p-5 pt-0">
         <a
           href={linkHref}
           target="_blank"

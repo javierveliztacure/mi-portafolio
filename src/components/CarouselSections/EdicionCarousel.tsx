@@ -196,7 +196,7 @@ export default function EdicionCarousel() {
         <CarouselCard
           key={item.title}
           {...item}
-          minWidth="min-w-[320px] sm:min-w-[400px]"
+          minWidth="min-w-[85%] sm:min-w-[400px]"
           aspectRatio="video"
         />
       ))}

@@ -3,10 +3,10 @@ import { whatsappLink } from "@/shared/constants/contact";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full border-b border-[#e2e0dc] bg-[#faf9f6] py-16 lg:py-24">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-12 items-start">
-          <div className="flex flex-col gap-6 lg:col-span-12">
+    <section className="relative w-full border-b border-[#e2e0dc] bg-[#faf9f6] py-10 sm:py-16 lg:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:pt-12 items-start">
+          <div className="flex flex-col gap-4 sm:gap-6 lg:col-span-12">
             <span className="font-mono text-xs uppercase tracking-widest text-[#747878] font-semibold">
               // COMUNICACIÓN & NARRATIVA AUDIOVISUAL
             </span>
@@ -18,7 +18,7 @@ export default function HeroSection() {
             </p>
 
             {/* CTA Actions */}
-            <div className="flex flex-wrap items-center gap-4 pt-4">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 pt-2 sm:pt-4">
               <a
                 href="#clips-todo-good"
                 className="inline-flex items-center gap-2 px-6 py-3.5 bg-black text-white hover:bg-[#222] font-mono text-xs uppercase tracking-wider font-semibold rounded transition-all"

@@ -97,7 +97,7 @@ export default function ClipsCarousel() {
           key={clip.title}
           {...clip}
           btnVariant="dark"
-          minWidth="min-w-[320px] sm:min-w-[380px]"
+          minWidth="min-w-[85%] sm:min-w-[380px]"
           aspectRatio="video"
         />
       ))}

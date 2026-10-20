@@ -17,7 +17,7 @@ const fotografiaData = [
     linkHref:
       "https://drive.google.com/file/d/1teu7I3h4GnZOCAitoYOh65bZ_brBKLIA/view?usp=sharing",
     btnVariant: "default" as const,
-    minWidth: "min-w-[300px] sm:min-w-[350px]",
+    minWidth: "min-w-[85%] sm:min-w-[350px]",
     aspectRatio: "portrait" as const,
   },
   {
@@ -35,7 +35,7 @@ const fotografiaData = [
     linkHref:
       "https://drive.google.com/file/d/1w6BjH5DXrUiZ8Nl5wAkbR7PzMXtcrj-k/view?usp=sharing",
     btnVariant: "default" as const,
-    minWidth: "min-w-[300px] sm:min-w-[350px]",
+    minWidth: "min-w-[85%] sm:min-w-[350px]",
     aspectRatio: "portrait" as const,
   },
   {
@@ -53,7 +53,7 @@ const fotografiaData = [
     linkHref:
       "https://drive.google.com/file/d/1y7b2QnLHqTHVFIBISzplSXBJGsAwmsIG/view?usp=sharing",
     btnVariant: "default" as const,
-    minWidth: "min-w-[300px] sm:min-w-[350px]",
+    minWidth: "min-w-[85%] sm:min-w-[350px]",
     aspectRatio: "portrait" as const,
   },
   {
@@ -71,7 +71,7 @@ const fotografiaData = [
     linkHref:
       "https://drive.google.com/file/d/13sGuammoC1EySyJlNwirqAtxlWvi3Y-u/view?usp=sharing",
     btnVariant: "default" as const,
-    minWidth: "min-w-[300px] sm:min-w-[350px]",
+    minWidth: "min-w-[85%] sm:min-w-[350px]",
     aspectRatio: "portrait" as const,
   },
   {
@@ -89,7 +89,7 @@ const fotografiaData = [
     linkHref:
       "https://drive.google.com/file/d/1vENzmZNqErLBkFDB_2SMxZ3o1vGDeEKT/view?usp=sharing",
     btnVariant: "default" as const,
-    minWidth: "min-w-[300px] sm:min-w-[350px]",
+    minWidth: "min-w-[85%] sm:min-w-[350px]",
     aspectRatio: "portrait" as const,
   },
 ];

@@ -10,10 +10,10 @@ import { WHATSAPP_DISPLAY, whatsappLink } from "@/shared/constants/contact";
 
 export default function ContactSection() {
   return (
-    <section id="contacto" className="w-full py-16 lg:py-24 bg-[#faf9f6]">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="bg-black text-white rounded-lg p-8 sm:p-10 lg:p-14 shadow-sm">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-end">
+    <section id="contacto" className="w-full py-10 sm:py-16 lg:py-24 bg-[#faf9f6]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="bg-black text-white rounded-lg p-6 sm:p-10 lg:p-14 shadow-sm">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
             {/* Pitch */}
             <div className="lg:col-span-7 flex flex-col gap-4">
               <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#ccff00] flex items-center gap-2">
