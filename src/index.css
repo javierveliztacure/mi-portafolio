@@ -4,9 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
-  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700;800&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
-
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;

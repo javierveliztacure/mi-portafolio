@@ -1,15 +1,12 @@
-import { Mail, MessageCircle, CheckCircle, ArrowUpRight } from "lucide-react";
-import {
-  CONTACT_EMAIL,
-  WHATSAPP_DISPLAY,
-  whatsappLink,
-} from "@/shared/constants/contact";
+// Al reactivar el correo y los compromisos, vuelve a importar Mail, CheckCircle y CONTACT_EMAIL
+import { MessageCircle, ArrowUpRight } from "lucide-react";
+import { WHATSAPP_DISPLAY, whatsappLink } from "@/shared/constants/contact";
 
-const commitments = [
-  "Entrega de primeros cortes en 24-48h",
-  "Workflows remotos en Frame.io & Drive",
-  "Prueba técnica con material en bruto",
-];
+// const commitments = [
+//   "Entrega de primeros cortes en 24-48h",
+//   "Workflows remotos en Frame.io & Drive",
+//   "Prueba técnica con material en bruto",
+// ];
 
 export default function ContactSection() {
   return (
