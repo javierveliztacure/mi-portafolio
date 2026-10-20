@@ -25,63 +25,66 @@ const animacionesData = [
   },
   {
     imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD4JjbXWQIWU6e3g3dkUKbYSS3xrZ7FHBlMC9Fj8F0n6YuzEIyduZDhjC1IApUpwWI6HfZUPKXDKv_F8TP80OiS6G9MHs9Vtn9W27RVaK8NMGNiYhFbWOaWBrVPO4OKMa8grjvouLxPp5uNcEOl9lSbG3dhi6_J9ZI95mt_yQpkyzZK6vs4DL-MGDqPLTF5C-6fK5qrPWJ5m2aVwofehwuTINdPFiGBnJgfHqUqLu-hoR97SlI5iReX3Q",
+      "/images/ANIMACION_PHANTOM_2.png",
     imageAlt: "Dynamic broadcast transition stinger bumper animation",
-    topLabel: "BRANDING STINGER",
+    topLabel: "RETAIL",
     topLabelVariant: "highlight" as const,
-    bottomLabel: "00:03 // TRANSITION",
-    title: "Identidad Visual Animada & Bumpers de Canal",
+    bottomLabel: "ANIMACIÓN // AFTER EFFECTS",
+    title: "Animación de promoción mandos PS4",
     description:
-      "Cortinillas de corte rápido para cambios de bloque en streaming, sincronizadas con stingers de audio limpios.",
+      "Animación elaborada para la tienda Phantom, como parte del área de marketing.",
     tags: [
-      { label: "Stinger Cut" },
-      { label: "Logo Motion" },
-      { label: "Sound FX" },
+      { label: "After Effects" },
+      // { label: "Alpha Channel" }, //
+      // { label: "After Effects" }, // 
     ],
     linkText: "Ver animación",
     linkHref:
-      "https://drive.google.com/file/d/1SL4W2MYaE1oNU0GYVWQVPjTwgElBpncK/view?usp=sharing",
+      "https://www.youtube.com/watch?v=OzPPr2_X6K8",
+      videoUrl: "https://www.youtube.com/watch?v=OzPPr2_X6K8",
     btnVariant: "dark" as const,
   },
   {
     imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAAeAl44qnkbWtdb6XD7MtbWnF7XPc6UKrbRguvrI6vKcD2-7SdCcGxrYWYiu5tjq0otNzLKxn8_62sr-ia0YeyDRT_6NKzglW-ODwQ_YbsWSStkI1XFSaHhBobdDsSzY4J_MDcE356uII8qSIORzPPMJXDx8I8xvZdeEYKXsmxlTBnIFBr4-yXpJYmt7p4eQBB0Mm1caXB41xGr70Yhypxd3gRgmpiLd0-aJOSsHXf-g6v4ePTHwcfgA",
+      "/images/ANIMACION_PHANTOM_3.png",
     imageAlt:
       "Kinetic typography promotional motion reel showing bold geometric sans serif fonts",
-    topLabel: "KINETIC TYPE",
+    topLabel: "RETAIL",
     topLabelVariant: "highlight" as const,
-    bottomLabel: "00:15 // PROMO",
-    title: "Animación Tipográfica & Motion Promocional",
+    bottomLabel: "ANIMACIÓN // AFTER EFFECTS",
+    title: "Animación de promoción de ropa",
     description:
-      "Tipografía con balance cinético exacto sobre voz en off comercial para lanzamientos y campañas de redes sociales.",
+      "Animación elaborada para la tienda Phantom, como parte del área de marketing.",
     tags: [
-      { label: "Kinetic Motion" },
-      { label: "Voice Sync" },
-      { label: "9:16 & 16:9" },
+      { label: "After Effects" },
+      // { label: "Alpha Channel" }, //
+      // { label: "After Effects" }, // 
     ],
     linkText: "Ver animación",
     linkHref:
-      "https://drive.google.com/file/d/1fKyeTCFmJdneaV7kTEajRuun1lJmV5os/view?usp=sharing",
+      "https://www.youtube.com/watch?v=B3beOrwM5bs",
+      videoUrl: "https://www.youtube.com/watch?v=B3beOrwM5bs",
     btnVariant: "dark" as const,
   },
   {
     imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBc0jtQGh0I0keXIcWOU-4NUHbKKHYlLq0V_V22jKjgGMYEkS2yTgj5IPeaKr987B8snqRfGy1wOUv3llsGhRQFEtv8CX_dpamsBwIFHLqHFY6uZQ1MqzbCUT--HVHRS7QkTd5cHPeHm4OjgCVdh1fjK2jzxn8O4T800DOf0n9gGFC6A8kweCKHsOuws4ZkVNG57LnlmD-MFmrzZJkFUknPef0vcQT6njzmxkQwGl7_X-O2VKJVIT4Cmg",
+      "/images/SISOL_TBC.png",
     imageAlt: "Digital HUD alert animation badge pulsing in electric wireframe",
-    topLabel: "STREAM ALERTS",
+    topLabel: "SALUD / INFORMATIVO",
     topLabelVariant: "highlight" as const,
-    bottomLabel: "LOOP // WEBM",
-    title: "Stingers & Alertas Dinámicas",
+    bottomLabel: "ANIMACIÓN // AFTER EFFECTS",
+    title: "Principales síntomas de la TBC",
     description:
-      "Gráficos en bucle optimizados en WebM de peso ultra liviano para no sobrecargar el render de encoders en vivo.",
+      "Material informativo elaborado para SISOL SALUD, como parte del área de Comunicaciones.",
     tags: [
-      { label: "WebM Alpha" },
-      { label: "Ultra Liviano" },
-      { label: "OBS Engine" },
+      { label: "After Effects" },
+      // { label: "Alpha Channel" }, //
+      // { label: "After Effects" }, // 
     ],
     linkText: "Ver animación",
     linkHref:
-      "https://drive.google.com/file/d/1swQ3ZIXTatdXgaNnNaqnpnnw4PmMRBZI/view?usp=sharing",
+      "https://www.youtube.com/watch?v=qaGWp0NgAms",
+      videoUrl: "https://www.youtube.com/watch?v=qaGWp0NgAms",
     btnVariant: "dark" as const,
   },
 ];
@@ -92,7 +95,7 @@ export default function AnimacionesCarousel() {
       id="animaciones"
       subtitle="03 // AFTER EFFECTS & IDENTIDAD EN MOVIMIENTO"
       title="ANIMACIONES & MOTION GRAPHICS"
-      description="Packaging gráfico, zócalos de stream & bumpers: sistemas de rótulos modulares en After Effects, stingers de transición y tipografía cinética promocional."
+      description="Algunas trabajos realizados con Affter Effects."
       bgColor="bg-[#faf9f6]"
     >
       {animacionesData.map((item) => (

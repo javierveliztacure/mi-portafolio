@@ -99,13 +99,13 @@ const edicionData = [
     bottomLabel: "02:18 // EVENTO",
     title: "Lanzamiento de God Of War - Phantom",
     description:
-      "Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
+      "Evento de lanzamiento del juego de God Of War para ps4, actividad realizada en Phantom de Larcomar. Produje y edité contenidos audiovisuales para campañas de comunicación y promoción comercial, adaptados a plataformas digitales y puntos de venta. Participé en todas las etapas del proceso audiovisual, desde la grabación y planificación hasta la postproducción y entrega de piezas finales. Desarrollé contenidos orientados a fortalecer la presencia digital de la marca y apoyar las estrategias de comunicación con clientes.",
     tags: [
       { label: "Edición" },
       { label: "Grabación" },
       { label: "Producción" },
     ],
-    linkText: "Ver",
+    linkText: "Ver video",
     linkHref:
       "https://www.youtube.com/watch?v=TyNDClahVNM",
       videoUrl: "https://www.youtube.com/watch?v=TyNDClahVNM",
@@ -133,29 +133,29 @@ const edicionData = [
       videoUrl: "https://www.youtube.com/watch?v=1IVUoYZyiYU",
     btnVariant: "dark" as const,
   },
-  
-  {
-    imageUrl:
-      "/images/SISOL_INSOMNIO.png",
-    imageAlt:
-      "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
-    topLabel: "SALUD / INFORMATIVO",
-    topLabelVariant: "highlight" as const,
-    bottomLabel: "01:00 // INFORMATIVO",
-    title: "Recomendaciones para prevenir el insomnio",
-    description:
-      "Video informativo con recomendaciones para prevenir el insomnio. Material elaborado para SISOL SALUD, como parte del área de Comunicaciones.",
-    tags: [
-      { label: "Edición" },
-      { label: "Grabación" },
-      { label: "Producción" },
-    ],
-    linkText: "Ver video",
-    linkHref:
-      "https://www.youtube.com/shorts/VHCniwMYS8Y",
-      videoUrl: "https://www.youtube.com/shorts/VHCniwMYS8Y",
-    btnVariant: "dark" as const,
-  },
+ 
+  // {
+  //   imageUrl:
+  //     "/images/SISOL_INSOMNIO.png",
+  //   imageAlt:
+  //     "Cinematic frame of an investigative short documentary in an urban Latin American neighborhood",
+  //   topLabel: "SALUD / INFORMATIVO",
+  //   topLabelVariant: "highlight" as const,
+  //   bottomLabel: "01:00 // INFORMATIVO",
+  //   title: "Recomendaciones para prevenir el insomnio",
+  //   description:
+  //     "Video informativo con recomendaciones para prevenir el insomnio. Material elaborado para SISOL SALUD, como parte del área de Comunicaciones.",
+  //   tags: [
+  //     { label: "Edición" },
+  //     { label: "Grabación" },
+  //     { label: "Producción" },
+  //   ],
+  //   linkText: "Ver video",
+  //   linkHref:
+  //     "https://www.youtube.com/shorts/VHCniwMYS8Y",
+  //     videoUrl: "https://www.youtube.com/shorts/VHCniwMYS8Y",
+  //   btnVariant: "dark" as const,
+  // }, 
 
  
   {
@@ -188,7 +188,7 @@ export default function EdicionCarousel() {
       id="edicion-de-video"
       subtitle="02 // MONTAJE INFORMATIVO & COMERCIAL"
       title="EDICIONES DE VIDEO"
-      description="Montaje narrativo, institucional y formatos comerciales, desde testimonios con rigor periodístico hasta piezas publicitarias."
+      description="Edición institucional y formatos comerciales."
       bgColor="bg-[#f4f3f0]"
       scrollOffset={400}
     >
