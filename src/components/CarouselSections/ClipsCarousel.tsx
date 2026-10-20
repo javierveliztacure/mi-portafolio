@@ -42,7 +42,6 @@ const clipsData = [
     linkHref:
       "https://drive.google.com/file/d/16bEPqpgviFq7cylkwtB34U3yW4cG5LKI/view?usp=sharing",
       videoUrl: "",
-      btnVariant: "dark" as const,
   },
   {
     imageUrl:
@@ -97,7 +96,7 @@ export default function ClipsCarousel() {
         <CarouselCard
           key={clip.title}
           {...clip}
-          btnVariant="default"
+          btnVariant="dark"
           minWidth="min-w-[320px] sm:min-w-[380px]"
           aspectRatio="video"
         />

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Download, Menu, MessageCircle, X } from "lucide-react";
-import { whatsappLink } from "@/shared/constants/contact";
+import { CV_URL, whatsappLink } from "@/shared/constants/contact";
 
 const navItems = [
   { href: "#clips-todo-good", label: "01 / Clips" },
@@ -62,8 +62,9 @@ export default function Header() {
         {/* Action Buttons */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <a
-            href="#"
-            download
+            href={CV_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden lg:inline-flex items-center gap-2 px-3.5 py-2.5 bg-white hover:bg-[#efeeeb] hover:border-black text-black font-mono text-xs font-semibold uppercase tracking-wider rounded border border-[#e2e0dc] transition-all shadow-sm"
           >
             <Download size={16} />
@@ -130,8 +131,9 @@ export default function Header() {
                 Escribir por WhatsApp
               </a>
               <a
-                href="#"
-                download
+                href={CV_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={closeMenu}
                 className="w-full py-3.5 px-4 bg-white hover:bg-[#efeeeb] text-black font-mono text-xs font-semibold uppercase tracking-wider rounded border border-[#e2e0dc] flex items-center justify-center gap-2 transition-colors"
               >
