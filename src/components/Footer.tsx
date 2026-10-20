@@ -10,7 +10,7 @@ export default function Footer() {
             </span>
           </div>
           <p className="font-body text-xs text-[#747878]">
-            © 2024. Dirección audiovisual, edición narrativa y color grading.
+            © {new Date().getFullYear()}. Dirección audiovisual, edición narrativa y color grading.
           </p>
         </div>
 
