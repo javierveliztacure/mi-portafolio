@@ -36,12 +36,12 @@ export default function Header() {
           >
             03 / Animación
           </a>
-          <a
+          {/* <a
             href="#fotografia"
             className="px-3 py-2 rounded hover:text-black hover:bg-[#efeeeb] transition-colors"
           >
             04 / Fotografía
-          </a>
+          </a> */}
         </nav>
 
         {/* Action Buttons */}

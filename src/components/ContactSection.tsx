@@ -64,7 +64,7 @@ export default function ContactSection() {
                 />
               </a>
 
-              <a
+              {/* <a
                 href={`mailto:${CONTACT_EMAIL}`}
                 className="group w-full py-4 px-5 border border-white/20 hover:border-white/50 rounded flex items-center justify-between gap-3 transition-colors"
               >
@@ -83,19 +83,19 @@ export default function ContactSection() {
                   size={20}
                   className="text-white/50 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
 
           {/* Editorial commitments */}
-          <div className="mt-10 lg:mt-12 pt-6 border-t border-white/15 grid grid-cols-1 sm:grid-cols-3 gap-4 font-mono text-xs text-white/80">
+          {/* <div className="mt-10 lg:mt-12 pt-6 border-t border-white/15 grid grid-cols-1 sm:grid-cols-3 gap-4 font-mono text-xs text-white/80">
             {commitments.map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <CheckCircle size={16} className="text-[#ccff00] shrink-0" />
                 <span>{item}</span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

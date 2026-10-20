@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import ClipsCarousel from "../components/CarouselSections/ClipsCarousel";
 import EdicionCarousel from "../components/CarouselSections/EdicionCarousel";
 import AnimacionesCarousel from "../components/CarouselSections/AnimacionesCarousel";
-import FotografiaCarousel from "../components/CarouselSections/FotografiaCarousel";
+// import FotografiaCarousel from "../components/CarouselSections/FotografiaCarousel";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
@@ -16,7 +16,7 @@ export default function Home() {
         <ClipsCarousel />
         <EdicionCarousel />
         <AnimacionesCarousel />
-        <FotografiaCarousel />
+{/*         <FotografiaCarousel /> */}
         <ContactSection />
       </main>
       <Footer />
