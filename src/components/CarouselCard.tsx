@@ -1,5 +1,6 @@
 import { ExternalLink, Play, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Tag {
   label: string;
@@ -23,6 +24,28 @@ interface CarouselCardProps {
   videoUrl?: string;
 }
 
+// YouTube bloquea las URLs /watch dentro de un iframe; solo permite /embed/ID.
+const toEmbedUrl = (url: string) => {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^(www\.|m\.)/, "");
+    let id: string | null = null;
+    if (host === "youtu.be") id = parsed.pathname.slice(1);
+    else if (host === "youtube.com") {
+      if (parsed.pathname === "/watch") id = parsed.searchParams.get("v");
+      else if (/^\/(shorts|embed)\//.test(parsed.pathname))
+        id = parsed.pathname.split("/")[2];
+    }
+    if (!id) return url;
+    const start = parseInt(parsed.searchParams.get("t") ?? "", 10);
+    const params = new URLSearchParams({ autoplay: "1", rel: "0" });
+    if (start > 0) params.set("start", String(start));
+    return `https://www.youtube.com/embed/${id}?${params}`;
+  } catch {
+    return url;
+  }
+};
+
 export default function CarouselCard({
   imageUrl,
   imageAlt,
@@ -40,6 +63,20 @@ export default function CarouselCard({
   videoUrl,
 }: CarouselCardProps) {
   const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    if (!showVideo) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setShowVideo(false);
+    };
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [showVideo]);
+
   const getTopLabelClasses = () => {
     switch (topLabelVariant) {
       case "highlight":
@@ -137,32 +174,39 @@ export default function CarouselCard({
       </div>
 
       {/* Video Modal */}
-      {showVideo && videoUrl && (
-        <div
-          className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm"
-          onClick={() => setShowVideo(false)}
-        >
+      {showVideo &&
+        videoUrl &&
+        createPortal(
           <div
-            className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
+            className="fixed inset-0 z-[100] bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm"
+            role="dialog"
+            aria-modal="true"
+            aria-label={title}
+            onClick={() => setShowVideo(false)}
           >
-            <button
-              onClick={() => setShowVideo(false)}
-              className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black/80 rounded-full transition-colors"
-              aria-label="Close video"
+            <div
+              className="w-full max-w-4xl flex flex-col items-end gap-2"
+              onClick={(e) => e.stopPropagation()}
             >
-              <X size={24} className="text-white" />
-            </button>
-            <iframe
-              src={videoUrl}
-              className="w-full h-full"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-              title="Video"
-            />
-          </div>
-        </div>
-      )}
+              <button
+                onClick={() => setShowVideo(false)}
+                className="p-2 bg-white/10 hover:bg-white/25 rounded-full transition-colors"
+                aria-label="Cerrar video"
+              >
+                <X size={24} className="text-white" />
+              </button>
+              <iframe
+                src={toEmbedUrl(videoUrl)}
+                className="w-full aspect-video bg-black rounded-lg"
+                allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                title={title}
+              />
+            </div>
+          </div>,
+          document.body,
+        )}
     </article>
   );
 }
