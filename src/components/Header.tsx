@@ -1,4 +1,5 @@
 import { Download } from "lucide-react";
+import { whatsappLink } from "@/shared/constants/contact";
 
 export default function Header() {
   return (
@@ -54,7 +55,9 @@ export default function Header() {
             Descargar CV
           </a>
           <a
-            href="#contacto"
+            href={whatsappLink()}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#ccff00] hover:bg-[#bbf000] text-black font-mono text-xs font-bold uppercase tracking-wider rounded border border-black/10 transition-transform active:scale-95 shadow-sm"
           >
             <span className="w-2 h-2 rounded-full bg-black animate-pulse"></span>

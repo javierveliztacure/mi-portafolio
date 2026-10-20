@@ -1,4 +1,5 @@
 import { ArrowDown, MessageCircle } from "lucide-react";
+import { whatsappLink } from "@/shared/constants/contact";
 
 export default function HeroSection() {
   return (
@@ -25,7 +26,7 @@ export default function HeroSection() {
                 Ver Trabajos <ArrowDown size={16} />
               </a>
               <a
-                href="https://wa.me/51911000000?text=Hola%20Javier,%20vi%20tu%20portafolio%20y%20quiero%20conversar%20sobre%20un%20proyecto"
+                href={whatsappLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#ccff00] hover:bg-[#bbf000] text-black font-mono text-xs uppercase tracking-wider font-bold rounded border border-black/10 transition-all shadow-sm"

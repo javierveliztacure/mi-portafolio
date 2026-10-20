@@ -1,4 +1,9 @@
 import { Mail, MessageCircle, CheckCircle, ArrowUpRight } from "lucide-react";
+import {
+  CONTACT_EMAIL,
+  WHATSAPP_DISPLAY,
+  whatsappLink,
+} from "@/shared/constants/contact";
 
 const commitments = [
   "Entrega de primeros cortes en 24-48h",
@@ -35,7 +40,9 @@ export default function ContactSection() {
             {/* Actions */}
             <div className="lg:col-span-5 flex flex-col gap-3">
               <a
-                href="https://wa.me/51987411090?text=Hola%20Javier,%20revis%C3%A9%20tu%20portafolio%20y%20quiero%20cotizar%20un%20proyecto%20de%20video"
+                href={whatsappLink(
+                  "Hola Javier, revisé tu portafolio y quiero cotizar un proyecto de video"
+                )}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group w-full py-4 px-5 bg-[#ccff00] hover:bg-[#bbf000] text-black rounded flex items-center justify-between gap-3 transition-transform active:scale-95"
@@ -47,7 +54,7 @@ export default function ContactSection() {
                       Escribir por WhatsApp
                     </span>
                     <span className="font-mono text-[11px] text-black/70">
-                      +51 987 411 090
+                      {WHATSAPP_DISPLAY}
                     </span>
                   </span>
                 </span>
@@ -58,7 +65,7 @@ export default function ContactSection() {
               </a>
 
               <a
-                href="mailto:contacto@javierveliz.pe"
+                href={`mailto:${CONTACT_EMAIL}`}
                 className="group w-full py-4 px-5 border border-white/20 hover:border-white/50 rounded flex items-center justify-between gap-3 transition-colors"
               >
                 <span className="flex items-center gap-3">
@@ -68,7 +75,7 @@ export default function ContactSection() {
                       Correo
                     </span>
                     <span className="font-mono text-xs font-medium">
-                      contacto@javierveliz.pe
+                      {CONTACT_EMAIL}
                     </span>
                   </span>
                 </span>
