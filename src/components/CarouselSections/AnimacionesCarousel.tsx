@@ -20,7 +20,7 @@ const animacionesData = [
     linkText: "Ver animación",
     linkHref:
       "https://youtu.be/zSkR1QVx1Xk",
-      videoUrl: "https://www.youtube.com/watch?v=Q1KjcXqNkw0&t=44s",
+      videoUrl: "https://youtu.be/zSkR1QVx1Xk",
     btnVariant: "dark" as const,
   },
   {

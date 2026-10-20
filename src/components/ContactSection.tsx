@@ -21,7 +21,7 @@ export default function ContactSection() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ccff00] opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#ccff00]"></span>
                 </span>
-                05 // CONTACTO & PRODUCCIÓN
+                05 // CONTACTO 
               </span>
               <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight leading-[1.05]">
                 HABLEMOS DE TU PRÓXIMO PROYECTO AUDIOVISUAL
@@ -48,7 +48,7 @@ export default function ContactSection() {
                   <MessageCircle size={22} />
                   <span className="flex flex-col">
                     <span className="font-mono text-xs font-bold uppercase tracking-wider">
-                      Escribir por WhatsApp
+                      Escríbeme y conversemos 
                     </span>
                     <span className="font-mono text-[11px] text-black/70">
                       {WHATSAPP_DISPLAY}
