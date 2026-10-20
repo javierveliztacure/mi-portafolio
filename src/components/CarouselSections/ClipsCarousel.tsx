@@ -4,7 +4,7 @@ import CarouselCard from "../CarouselCard";
 const clipsData = [
   {
     imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA0oopTn2oXmmd2BL4dj734g7erV1Pe2dJKqka6qW1s11bbAdwo2Ecdg5cyDAjXCPi-8pxpPbYsSbVxa7Be4NwIZgsnHT8ic9d43hnmJKKOFJcLFZTyPkmzr_o45Sx-v0w5kHWXPSOyOuG--7LDIjA43kYlCXMBcEALR0r_Bv27SSGWR0uCuwaLZ4FFswgLmLdGTwkbbxBYbLg_3XZk4SFjfb41NbPzNh7ml7Zr6L_g1-HrIGl3l--zuQ",
+      "/images/TG_1.png",
     imageAlt:
       "Dynamic video editor timeline screenshot showing audio waveforms and comedic video montage preview",
     topLabel: "TIMING CÓMICO",
@@ -14,11 +14,11 @@ const clipsData = [
     description:
       "Extracción de remates con edición afilada. Énfasis en pausas dramáticas, zoom-ins sutiles y remates de audio punchy.",
     tags: [
-      { label: "Punchlines" },
+    /*   { label: "Punchlines" },
       { label: "Sound SFX" },
-      { label: "Todo Good" },
+      { label: "Todo Good" }, */
     ],
-    linkText: "Ver Clip en Drive",
+    linkText: "Ver clip",
     linkHref:
       "https://drive.google.com/file/d/1ck-sdnVokYox3OiSvt8Cg2R3x4oejI9Y/view?usp=sharing",
   },
@@ -28,7 +28,7 @@ const clipsData = [
     imageAlt:
       "Multi-camera studio podcast and live talk show setup with two creators debating",
     topLabel: "MULTICÁMARA",
-    topLabelVariant: "dark" as const,
+    topLabelVariant: "highlight" as const,
     bottomLabel: "01:42 // PODCAST",
     title: "Highlight de Debate & Momentos Clave",
     description:
@@ -38,9 +38,11 @@ const clipsData = [
       { label: "Subtítulos" },
       { label: "Podcast" },
     ],
-    linkText: "Ver Clip en Drive",
+    linkText: "Ver clip",
     linkHref:
       "https://drive.google.com/file/d/16bEPqpgviFq7cylkwtB34U3yW4cG5LKI/view?usp=sharing",
+      videoUrl: "",
+      btnVariant: "dark" as const,
   },
   {
     imageUrl:
@@ -57,7 +59,7 @@ const clipsData = [
       { label: "Tracking" },
       { label: "TikTok / Reels" },
     ],
-    linkText: "Ver Clip en Drive",
+    linkText: "Ver clip",
     linkHref:
       "https://drive.google.com/file/d/1NITvFXRW6FL_k2D74Ze4K11WB-aY9-1j/view?usp=sharing",
   },
@@ -66,7 +68,7 @@ const clipsData = [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAm1YMO8qeyq1scrRU3EhfzgC5Mjy2knkLKjvi90mDLOnojS77_7g_D1g0I7PEB467tcunSIJ6DsDuomnKtOqfV8kqn2_8FMHnccBxCVx3XYzEyyVlSWADShRJbCCnqpXDUYuRUJpVCc73OQrjTYaavyNa84kCWfuuCtQ2cndo5Xtjo7-vIBRZZ-baPmlpqGnF1rWuW1ANljxUDY1rIjg6fc2GFX0p4ciQw40EDus_yok-GVN1Gfhr0Vg",
     imageAlt: "Behind the scenes studio blooper moment",
     topLabel: "BLOOPERS",
-    topLabelVariant: "dark" as const,
+    topLabelVariant: "highlight" as const,
     bottomLabel: "01:12 // RAW CUT",
     title: "Momentos Espontáneos & Bloopers",
     description:
@@ -76,7 +78,7 @@ const clipsData = [
       { label: "SFX Punch" },
       { label: "En Vivo" },
     ],
-    linkText: "Ver Clip en Drive",
+    linkText: "Ver clip",
     linkHref:
       "https://drive.google.com/file/d/1swQ3ZIXTatdXgaNnNaqnpnnw4PmMRBZI/view?usp=sharing",
   },

@@ -6,15 +6,15 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#ccff00] border border-black/20"></span>
             <span className="font-mono text-xs font-bold uppercase tracking-wider text-black">
-              JAVIER VÉLIZ // SUITE NLE ACTIVA
+              JAVIER VÉLIZ 
             </span>
           </div>
           <p className="font-body text-xs text-[#747878]">
-            © {new Date().getFullYear()}. Dirección audiovisual, edición narrativa y color grading.
+            © {new Date().getFullYear()}. Derechos reservados.
           </p>
         </div>
 
-        <div className="flex items-center gap-5 font-mono text-xs">
+        {/* <div className="flex items-center gap-5 font-mono text-xs">
           <a
             href="#"
             className="text-[#747878] hover:text-black uppercase tracking-wider transition-colors"
@@ -45,7 +45,7 @@ export default function Footer() {
           >
             Behance
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
