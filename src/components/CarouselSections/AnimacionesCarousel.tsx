@@ -95,7 +95,7 @@ export default function AnimacionesCarousel() {
       id="animaciones"
       subtitle="03 // AFTER EFFECTS & IDENTIDAD EN MOVIMIENTO"
       title="ANIMACIONES & MOTION GRAPHICS"
-      description="Algunas trabajos realizados con Affter Effects."
+      description="Trabajos de animación y diseño en movimiento desarrollados para presentar productos, comunicar información o acompañar mensajes. Una selección de proyectos en los que exploro el uso de recursos gráficos, movimiento y composición visual."
       bgColor="bg-[#faf9f6]"
     >
       {animacionesData.map((item) => (

@@ -24,13 +24,10 @@ export default function ContactSection() {
                 05 // CONTACTO 
               </span>
               <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight leading-[1.05]">
-                HABLEMOS DE TU PRÓXIMO PROYECTO AUDIOVISUAL
+                ¿Conversamos sobre tu próximo proyecto?
               </h2>
               <p className="font-body text-sm text-white/70 max-w-xl leading-relaxed">
-                Respuesta inmediata para producciones de streaming, series
-                documentales, campañas institucionales o pruebas técnicas con
-                material en bruto. Escríbeme para coordinar fechas de entrega o
-                paquetes recurrentes de clips.
+                Estoy abierto a nuevas oportunidades profesionales y colaboraciones en proyectos audiovisuales y de comunicación. Si quieres conocer más sobre mi trabajo o conversar sobre una oportunidad, puedes escribirme.
               </p>
             </div>
 

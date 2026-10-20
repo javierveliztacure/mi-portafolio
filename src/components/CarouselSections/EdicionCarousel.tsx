@@ -31,7 +31,7 @@ const edicionData = [
     topLabel: "ONG / TESTIMONIAL",
     topLabelVariant: "highlight" as const,
     bottomLabel: "02:49 // NARRATIVO",
-    title: "Historia de Ajies 'El Pimental'",
+    title: "Historia de Ajíes 'El Pimental'",
     description:
       "Desarrollé contenidos audiovisuales, fotográficos y gráficos para fortalecer la comunicación y visibilidad de las acciones del proyecto Alianza CR3CE (de la ONG CEDRO), financiado por USAID. Documenté actividades e historias de impacto en comunidades de San Martín, Ucayali y Huánuco mediante entrevistas, fotografía y producción audiovisual, contribuyendo a visibilizar los resultados del proyecto y las experiencias de sus beneficiarios.",
     tags: [
@@ -188,7 +188,7 @@ export default function EdicionCarousel() {
       id="edicion-de-video"
       subtitle="02 // MONTAJE INFORMATIVO & COMERCIAL"
       title="EDICIONES DE VIDEO"
-      description="Edición institucional y formatos comerciales."
+      description="Proyectos de distintos formatos en los que he participado desde la grabación, edición y la postproducción. Cada pieza presenta necesidades particulares de ritmo, continuidad y tratamiento visual, que abordo de acuerdo con sus objetivos y características."
       bgColor="bg-[#f4f3f0]"
       scrollOffset={400}
     >

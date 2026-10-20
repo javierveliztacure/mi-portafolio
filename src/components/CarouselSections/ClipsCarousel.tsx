@@ -51,7 +51,7 @@ const clipsData = [
     topLabel: "CLIP 3",
     topLabelVariant: "highlight" as const,
     bottomLabel: "00:50",
-    title: "¿No han kchdo en Habbo?",
+    title: "¿No han kchd* en Habbo?",
     description:
       "Furrey lanza una preguna polémica y revela un oscuro secreto.",
     tags: [

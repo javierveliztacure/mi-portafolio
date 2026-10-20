@@ -8,13 +8,13 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:pt-12 items-start">
           <div className="flex flex-col gap-4 sm:gap-6 lg:col-span-12">
             <span className="font-mono text-xs uppercase tracking-widest text-[#747878] font-semibold">
-              // COMUNICACIÓN & NARRATIVA AUDIOVISUAL
+              // portafolio
             </span>
             <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl uppercase tracking-tight text-black leading-[1.05]">
-              PORTAFOLIO
+              Comunicación y narrativa audiovisual
             </h1>
             <p className="font-body text-base lg:text-lg text-[#444748] max-w-2xl leading-relaxed">
-              Soy comunicador y periodista, con experiencia en edición y postproducción audiovisual. 
+              Soy comunicador y periodista, con experiencia en edición y postproducción audiovisual. He participado en proyectos de comunicación institucional, contenidos digitales y animación gráfica, trabajando con distintos formatos y necesidades de comunicación. Me interesa el montaje como una forma de organizar las ideas, construir el ritmo y encontrar la manera más clara de contar cada historia. 
             </p>
 
             {/* CTA Actions */}
